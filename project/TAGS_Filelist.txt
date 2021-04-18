@@ -1,0 +1,44 @@
+..\arch\stm8_interrupt_vector.c
+..\dev\bsp\inc\delay.h
+..\app\inc\stm8l15x_conf.h
+..\app\inc\stm8l15x_it.h
+..\dev\bsp\src\delay.c
+..\app\src\main.c
+..\app\src\stm8l15x_it.c
+..\dev\sensors\sensors.h
+..\dev\sensors\dev\sgp30\inc\sgp30_sensor.h
+..\dev\sensors\dev\sgp30\inc\sgp30.h
+..\dev\sensors\dev\sgp30\src\sgp30_sensor.c
+..\dev\sensors\dev\sgp30\src\sgp30.c
+..\drivers\stm8l15x_stdperiph_driver\inc\stm8l15x_spi.h
+..\drivers\stm8l15x_stdperiph_driver\inc\stm8l15x_i2c.h
+..\drivers\stm8l15x_stdperiph_driver\inc\stm8l15x_adc.h
+..\drivers\stm8l15x_stdperiph_driver\inc\stm8l15x.h
+..\drivers\stm8l15x_stdperiph_driver\inc\stm8l15x_clk.h
+..\drivers\stm8l15x_stdperiph_driver\inc\stm8l15x_exti.h
+..\drivers\stm8l15x_stdperiph_driver\inc\stm8l15x_gpio.h
+..\drivers\stm8l15x_stdperiph_driver\inc\stm8l15x_iwdg.h
+..\drivers\stm8l15x_stdperiph_driver\inc\stm8l15x_pwr.h
+..\drivers\stm8l15x_stdperiph_driver\inc\stm8l15x_rtc.h
+..\drivers\stm8l15x_stdperiph_driver\inc\stm8l15x_tim4.h
+..\drivers\stm8l15x_stdperiph_driver\inc\stm8l15x_usart.h
+..\drivers\stm8l15x_stdperiph_driver\src\stm8l15x_iwdg.c
+..\drivers\stm8l15x_stdperiph_driver\src\stm8l15x_spi.c
+..\drivers\stm8l15x_stdperiph_driver\src\stm8l15x_i2c.c
+..\drivers\stm8l15x_stdperiph_driver\src\stm8l15x_adc.c
+..\drivers\stm8l15x_stdperiph_driver\src\stm8l15x_clk.c
+..\drivers\stm8l15x_stdperiph_driver\src\stm8l15x_exti.c
+..\drivers\stm8l15x_stdperiph_driver\src\stm8l15x_gpio.c
+..\drivers\stm8l15x_stdperiph_driver\src\stm8l15x_pwr.c
+..\drivers\stm8l15x_stdperiph_driver\src\stm8l15x_rtc.c
+..\drivers\stm8l15x_stdperiph_driver\src\stm8l15x_tim4.c
+..\drivers\stm8l15x_stdperiph_driver\src\stm8l15x_usart.c
+..\drivers\uart\uart.c
+..\drivers\uart\uart.h
+..\arch\atomport.h
+..\os\inc\atom.h
+..\os\inc\atomtimer.h
+d:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\modsl0.h
+d:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stddef.h
+d:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdio.h
+d:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\string.h
