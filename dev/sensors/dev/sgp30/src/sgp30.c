@@ -3,7 +3,6 @@
 #include "sensors.h"
 #include "sgp30_sensor.h"
 
-#define SGP30_DEBUG
 #ifdef SGP30_DEBUG
 #include <stdio.h>
 #define PRINTF(...) printf(__VA_ARGS__)
@@ -425,14 +424,9 @@ retry:
 int sgp30_co2_tvoc(void *pt_value)
 {
     uint16_t sCo2, sTvoc;
-    int8_t ret;
+    int ret;
 
     ret = scmd(SGP30_MEASURE_IAQ, pt_value);
-    
-    if(SENSORS_ERROR != ret)
-    {
-        return SENSORS_OK;
-    }
 
-    return SENSORS_ERROR;
+    return ret;
 }

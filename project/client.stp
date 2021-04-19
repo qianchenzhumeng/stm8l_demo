@@ -83,10 +83,10 @@ String.100.0=STM8L151K6
 
 [Root.Config.0.Settings.3]
 String.2.0=Compiling $(InputFile)...
-String.3.0=cxstm8 -i..\dev\bsp\inc  +warn +modsl0 -customDbg +debug -pxp -customOpt-no -customC -pp -pc99 -customLst -l -dxATOM_STACK_CHECKING -dxTESTS_LOG_STACK_USAGE -dDEBUG -i..\dev\sensors\dev\sgp30\inc -i..\os\inc -i..\dev\sensors\dev\adc\inc -i..\dev\sensors\dev\sht3x\inc -i..\dev\sensors -i..\dev\radio\inc -i..\..\..\..\..\atomthreads\kernel -i..\drivers\uart -i..\drivers\usart -i..\drivers\stm8l15x_stdperiph_driver\inc -i..\arch -i..\kernel -i..\app\inc -i..\dev\stm8l15x_stdperiph_driver\inc $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile)
+String.3.0=cxstm8 +warn +modsl0 -customDbg +debug -pxp -customOpt-no -customC -pp -pc99 -customLst -l -dxSGP30_DEBUG -i..\dev\bsp\inc -i..\dev\sensors\dev\sgp30\inc -i..\os\inc -i..\dev\sensors\dev\adc\inc -i..\dev\sensors\dev\sht3x\inc -i..\dev\sensors -i..\dev\radio\inc -i..\..\..\..\..\atomthreads\kernel -i..\drivers\uart -i..\drivers\usart -i..\drivers\stm8l15x_stdperiph_driver\inc -i..\arch -i..\kernel -i..\app\inc -i..\dev\stm8l15x_stdperiph_driver\inc $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile)
 String.4.0=$(IntermPath)$(InputName).$(ObjectExt)
 String.5.0=$(IntermPath)$(InputName).ls
-String.6.0=2021,4,14,0,9,48
+String.6.0=2021,4,19,22,24,32
 
 [Root.Config.0.Settings.4]
 String.2.0=Assembling $(InputFile)...
@@ -249,10 +249,10 @@ Int.1=0
 
 [Root.Source Files.Config.0.Settings.1]
 String.2.0=Compiling $(InputFile)...
-String.3.0=cxstm8 -i..\dev\bsp\inc  +warn +modsl0 -customDbg +debug -pxp -customOpt-no -customC -pp -pc99 -customLst -l -dxATOM_STACK_CHECKING -dxTESTS_LOG_STACK_USAGE -dDEBUG -i..\dev\sensors\dev\sgp30\inc -i..\os\inc -i..\dev\sensors\dev\adc\inc -i..\dev\sensors\dev\sht3x\inc -i..\dev\sensors -i..\dev\radio\inc -i..\..\..\..\..\atomthreads\kernel -i..\drivers\uart -i..\drivers\usart -i..\drivers\stm8l15x_stdperiph_driver\inc -i..\arch -i..\kernel -i..\app\inc -i..\dev\stm8l15x_stdperiph_driver\inc $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile)
+String.3.0=cxstm8 +warn +modsl0 -customDbg +debug -pxp -customOpt-no -customC -pp -pc99 -customLst -l -dxSGP30_DEBUG -i..\dev\bsp\inc -i..\dev\sensors\dev\sgp30\inc -i..\os\inc -i..\dev\sensors\dev\adc\inc -i..\dev\sensors\dev\sht3x\inc -i..\dev\sensors -i..\dev\radio\inc -i..\..\..\..\..\atomthreads\kernel -i..\drivers\uart -i..\drivers\usart -i..\drivers\stm8l15x_stdperiph_driver\inc -i..\arch -i..\kernel -i..\app\inc -i..\dev\stm8l15x_stdperiph_driver\inc $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile)
 String.4.0=$(IntermPath)$(InputName).$(ObjectExt)
 String.5.0=$(IntermPath)$(InputName).ls
-String.6.0=2021,4,14,0,9,48
+String.6.0=2021,4,19,22,24,32
 
 [Root.Source Files.Config.0.Settings.2]
 String.2.0=Assembling $(InputFile)...
@@ -327,10 +327,10 @@ Int.1=0
 
 [Root.App.Config.0.Settings.1]
 String.2.0=Compiling $(InputFile)...
-String.3.0=cxstm8 -i..\dev\bsp\inc  +warn +modsl0 -customDbg +debug -pxp -customOpt-no -customC -pp -pc99 -customLst -l -dxATOM_STACK_CHECKING -dxTESTS_LOG_STACK_USAGE -dDEBUG -i..\dev\sensors\dev\sgp30\inc -i..\os\inc -i..\dev\sensors\dev\adc\inc -i..\dev\sensors\dev\sht3x\inc -i..\dev\sensors -i..\dev\radio\inc -i..\..\..\..\..\atomthreads\kernel -i..\drivers\uart -i..\drivers\usart -i..\drivers\stm8l15x_stdperiph_driver\inc -i..\arch -i..\kernel -i..\app\inc -i..\dev\stm8l15x_stdperiph_driver\inc $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile)
+String.3.0=cxstm8 +warn +modsl0 -customDbg +debug -pxp -customOpt-no -customC -pp -pc99 -customLst -l -dxSGP30_DEBUG -i..\dev\bsp\inc -i..\dev\sensors\dev\sgp30\inc -i..\os\inc -i..\dev\sensors\dev\adc\inc -i..\dev\sensors\dev\sht3x\inc -i..\dev\sensors -i..\dev\radio\inc -i..\..\..\..\..\atomthreads\kernel -i..\drivers\uart -i..\drivers\usart -i..\drivers\stm8l15x_stdperiph_driver\inc -i..\arch -i..\kernel -i..\app\inc -i..\dev\stm8l15x_stdperiph_driver\inc $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile)
 String.4.0=$(IntermPath)$(InputName).$(ObjectExt)
 String.5.0=$(IntermPath)$(InputName).ls
-String.6.0=2021,4,14,0,9,48
+String.6.0=2021,4,19,22,24,32
 
 [Root.App.Config.0.Settings.2]
 String.2.0=Assembling $(InputFile)...
@@ -440,10 +440,10 @@ Int.1=0
 
 [Root.dev.Config.0.Settings.1]
 String.2.0=Compiling $(InputFile)...
-String.3.0=cxstm8 -i..\dev\bsp\inc  +warn +modsl0 -customDbg +debug -pxp -customOpt-no -customC -pp -pc99 -customLst -l -dxATOM_STACK_CHECKING -dxTESTS_LOG_STACK_USAGE -dDEBUG -i..\dev\sensors\dev\sgp30\inc -i..\os\inc -i..\dev\sensors\dev\adc\inc -i..\dev\sensors\dev\sht3x\inc -i..\dev\sensors -i..\dev\radio\inc -i..\..\..\..\..\atomthreads\kernel -i..\drivers\uart -i..\drivers\usart -i..\drivers\stm8l15x_stdperiph_driver\inc -i..\arch -i..\kernel -i..\app\inc -i..\dev\stm8l15x_stdperiph_driver\inc $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile)
+String.3.0=cxstm8 +warn +modsl0 -customDbg +debug -pxp -customOpt-no -customC -pp -pc99 -customLst -l -dxSGP30_DEBUG -i..\dev\bsp\inc -i..\dev\sensors\dev\sgp30\inc -i..\os\inc -i..\dev\sensors\dev\adc\inc -i..\dev\sensors\dev\sht3x\inc -i..\dev\sensors -i..\dev\radio\inc -i..\..\..\..\..\atomthreads\kernel -i..\drivers\uart -i..\drivers\usart -i..\drivers\stm8l15x_stdperiph_driver\inc -i..\arch -i..\kernel -i..\app\inc -i..\dev\stm8l15x_stdperiph_driver\inc $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile)
 String.4.0=$(IntermPath)$(InputName).$(ObjectExt)
 String.5.0=$(IntermPath)$(InputName).ls
-String.6.0=2021,4,14,0,9,48
+String.6.0=2021,4,19,22,24,32
 
 [Root.dev.Config.0.Settings.2]
 String.2.0=Assembling $(InputFile)...
@@ -552,10 +552,10 @@ Int.1=0
 
 [Root.drivers.Config.0.Settings.1]
 String.2.0=Compiling $(InputFile)...
-String.3.0=cxstm8 -i..\dev\bsp\inc  +warn +modsl0 -customDbg +debug -pxp -customOpt-no -customC -pp -pc99 -customLst -l -dxATOM_STACK_CHECKING -dxTESTS_LOG_STACK_USAGE -dDEBUG -i..\dev\sensors\dev\sgp30\inc -i..\os\inc -i..\dev\sensors\dev\adc\inc -i..\dev\sensors\dev\sht3x\inc -i..\dev\sensors -i..\dev\radio\inc -i..\..\..\..\..\atomthreads\kernel -i..\drivers\uart -i..\drivers\usart -i..\drivers\stm8l15x_stdperiph_driver\inc -i..\arch -i..\kernel -i..\app\inc -i..\dev\stm8l15x_stdperiph_driver\inc $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile)
+String.3.0=cxstm8 +warn +modsl0 -customDbg +debug -pxp -customOpt-no -customC -pp -pc99 -customLst -l -dxSGP30_DEBUG -i..\dev\bsp\inc -i..\dev\sensors\dev\sgp30\inc -i..\os\inc -i..\dev\sensors\dev\adc\inc -i..\dev\sensors\dev\sht3x\inc -i..\dev\sensors -i..\dev\radio\inc -i..\..\..\..\..\atomthreads\kernel -i..\drivers\uart -i..\drivers\usart -i..\drivers\stm8l15x_stdperiph_driver\inc -i..\arch -i..\kernel -i..\app\inc -i..\dev\stm8l15x_stdperiph_driver\inc $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile)
 String.4.0=$(IntermPath)$(InputName).$(ObjectExt)
 String.5.0=$(IntermPath)$(InputName).ls
-String.6.0=2021,4,14,0,9,48
+String.6.0=2021,4,19,22,24,32
 
 [Root.drivers.Config.0.Settings.2]
 String.2.0=Assembling $(InputFile)...
